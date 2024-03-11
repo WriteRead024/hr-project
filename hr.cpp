@@ -1,7 +1,10 @@
-//monked from
+
+// Rich W.
+//portions of this miniprogram monked from
 // https://stackoverflow.com/questions/1022957/getting-terminal-width-in-c
 // https://stackoverflow.com/a/1022961
 //Jun 3, 2018
+// MSL.l otherwise
 
 #include <sys/ioctl.h>
 #include <stdio.h>
@@ -9,7 +12,6 @@
 #include <string>
 #include <time.h>
 #include <iostream>
-
 using namespace std;
 
 static string getDateTimeString()
